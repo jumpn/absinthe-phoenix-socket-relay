@@ -9,8 +9,7 @@
 - [Installation](#installation)
   - [Using npm](#using-npm)
   - [Using yarn](#using-yarn)
-- [Example](#example)
-  - [relay-environment.js](#relay-environmentjs)
+- [Examples](#examples)
 - [API](#api)
   - [createFetcher](#createfetcher)
   - [createSubscriber](#createsubscriber)
@@ -30,9 +29,9 @@
 
     $ yarn add @jumpn/absinthe-phoenix-socket-relay
 
-## Example
+## Examples
 
-### relay-environment.js
+-   **relay-environment.js**
 
 ```javascript
 // @flow
