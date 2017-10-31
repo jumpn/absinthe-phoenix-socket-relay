@@ -15,6 +15,7 @@
   - [createFetcher](#createfetcher)
   - [createSubscriber](#createsubscriber)
   - [isSubscribed](#issubscribed)
+- [References](#references)
 - [License](#license)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
@@ -89,6 +90,15 @@ disposable has started or to `false` otherwise
 -   `disposable` **Disposable** 
 
 Returns **[Promise](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise)&lt;[boolean](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Boolean)>** 
+
+## References
+
+-   [Absinthe Phoenix Socket](https://github.com/jumpn/absinthe-phoenix-socket)
+-   **Relay**
+    -   [Environment](https://facebook.github.io/relay/docs/relay-environment.html)
+    -   [NetworkLayer](https://facebook.github.io/relay/docs/network-layer.html)
+    -   [FetchFunction](https://github.com/facebook/relay/blob/master/packages/relay-runtime/network/RelayNetworkTypes.js#L79)
+    -   [SubscribeFunction](https://github.com/facebook/relay/blob/master/packages/relay-runtime/network/RelayNetworkTypes.js#L93)
 
 ## License
 
