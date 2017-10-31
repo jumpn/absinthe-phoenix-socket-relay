@@ -51,9 +51,7 @@
     "@jumpn/absinthe-phoenix-socket": "0.2.0",
     "@jumpn/utils-graphql": "0.4.0",
     "@jumpn/utils-promise": "0.3.1",
-    "babel-polyfill": "6.26.0",
     "babel-runtime": "6.26.0",
-    "flow-static-land": "0.2.7",
     "react-relay": "1.4.1"
   },
   "devDependencies": {
@@ -91,6 +89,5 @@
     "rollup-plugin-node-resolve": "3.0.0",
     "rollup-plugin-uglify": "2.0.1",
     "uglify-es": "3.1.6"
-  },
-  "peerDependencies": {}
+  }
 }
