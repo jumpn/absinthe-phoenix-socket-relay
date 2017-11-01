@@ -1,7 +1,7 @@
 // @flow
 
+import {cancel, observe, send} from "@jumpn/absinthe-phoenix-socket";
 import {createDeferred} from "@jumpn/utils-promise";
-import {discard, observe, send} from "@jumpn/absinthe-phoenix-socket";
 import {getOperationType} from "@jumpn/utils-graphql";
 
 import type {AbsintheSocket} from "@jumpn/absinthe-phoenix-socket/compat/cjs/types";
@@ -21,7 +21,7 @@ const onAbort = (deferred, callback) => error => {
 
 const createDisposable = (absintheSocket, notifier) => ({
   dispose: () => {
-    discard(absintheSocket, notifier);
+    cancel(absintheSocket, notifier);
   }
 });
 
