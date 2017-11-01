@@ -36,9 +36,8 @@
 ```javascript
 // @flow
 
-import {Environment, Network} from "relay-runtime";
-
 import {createFetcher, createSubscriber} from "@absinthe-phoenix-socket-relay";
+import {Environment, Network} from "relay-runtime";
 
 import absintheSocket from "./absintheSocket";
 
